@@ -1,0 +1,218 @@
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+menu {
+  display: flex;
+  gap: 46px;
+  margin: 32px 0px 32px 93px;
+}
+
+.top-menu {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+
+.top-menu-index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.button-list-port {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0px;
+  list-style: none;
+  justify-content: center;
+}
+
+.port-fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.foto-list {
+  flex-direction: column;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.foto-list:hover,
+.foto-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.first-baby {
+  display: flex;
+
+  align-items: center;
+}
+
+.second-baby {
+  display: flex;
+  gap: 50px;
+  margin-left: 345px;
+
+  justify-content: space-around;
+}
+
+.first-baby-index {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.second-baby-index {
+  display: flex;
+
+  gap: 50px;
+}
+
+figure {
+  margin: 0px;
+  border: 1px solid #eeeeee;
+  width: 370px;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+main {
+  margin-bottom: 94px;
+  margin-top: 94px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.portfolio-bottom-logo {
+  padding-top: 60px;
+}
+
+.foot-address {
+  color: var(--background-color);
+  padding-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.foot-address-two {
+  color: var(--background-color);
+  font-size: 14px;
+  line-height: 1.7;
+  padding-bottom: 9px;
+}
+
+.foot-address-three {
+  padding-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+address {
+  gap: 9px;
+}
+
+.lorem-list {
+  display: flex;
+  row-gap: 10px;
+  padding: 0;
+}
+
+.index-lorem {
+  max-width: 1170px;
+  margin: 94px 15px 94px 15px;
+}
+
+.service {
+  margin: 30px 700px 200px 700px;
+}
+
+.index-what {
+  margin: 94px 15px 94px 15px;
+}
+
+.index-title-button {
+  max-width: 1600px;
+}
+
+.what-foto {
+  display: flex;
+  column-gap: 30px;
+  margin: auto 0;
+}
+
+.team {
+  width: 1600px;
+  height: 708px;
+  left: 0px;
+  top: 1449px;
+  background: #f5f4fa;
+  margin: 0 auto;
+}
+
+.team-fotos {
+  display: inline-flex;
+  column-gap: 30px;
+  margin: 0 auto;
+  padding: 0px 215px 94px 215px;
+}
+
+.team-description {
+  padding: 94px 695px 50px 695px;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+.index-foto-list {
+  background: var(--background-color);
+  width: 270px;
+  height: 428px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.johndoe-foto {
+  max-width: 270px;
+  max-height: 260px;
+}
+.johndoe-description {
+  background: var(--background-color);
+  white-space: nowrap;
+  row-gap: 10px;
+  align-content: center;
+}
+.main-index {
+  margin-bottom: 0;
+  margin-top: 94px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.clients-section {
+  margin: 94px 215px;
+}
+/* ====================== footer DOŁĄCZ DO NAS==================== */
+.join-us {
+  width: 206px;
+  height: 80px;
+  margin-top: 72px;
+  margin-left: 70px;
+}
