@@ -189,22 +189,9 @@ address {
 
   color: var(--background-color);
 }
-/*======================/
-.index-label {
-  position: absolute;
-  width: 100%;
-  height: 70px;
-  bottom: 0;
-  background: rgba(47, 48, 58, 0.8);
-} */
 
-/*
-.label {
-  font-size: 14px;
-  
-  text-transform: uppercase;
-}
-/ ===================================*/
+/* =================================*/
+
 .team {
   width: 1600px;
   height: 708px;
@@ -259,4 +246,52 @@ address {
   height: 80px;
   margin-top: 72px;
   margin-left: 70px;
+}
+/* =======================  MODAL  =========================*/
+.backdrop {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  transform: scale(1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: rotate(240deg);
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  background: var(--background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 528px;
+  height: 581px;
+  cursor: auto;
+  margin: auto;
+  right: 536px;
+  left: 536px;
+  top: 221px;
+}
+
+.modal-close {
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: var(--background-color);
+  position: relative;
+  top: 8px;
+  left: 91%;
+  cursor: pointer;
 }
