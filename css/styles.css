@@ -510,15 +510,18 @@ footer {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-icon-element {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.25);
 }
+
 .footer-icon-element:last-child {
   margin-right: 0;
 }
+
 .footer-links-container {
   display: flex;
   justify-content: space-between;
@@ -526,13 +529,48 @@ footer {
   padding: 0;
   margin-top: 20px;
 }
+
 .footer-all {
   display: flex;
 }
+
 .link-footer {
   padding-top: 20px;
   display: block;
 }
+
 .mail-footer {
   padding-bottom: 9px;
+}
+
+/* ============= Portfolio Overlay =================*/
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-div {
+  position: relative;
+  overflow: hidden;
+}
+
+.technocrack-text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  padding: 49px 45px 49px 24px;
+}
+
+.foto-list:hover .overlay,
+.foto-list:focus .overlay {
+  transform: translate(0);
 }

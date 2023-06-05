@@ -23,6 +23,38 @@ menu {
   height: 80px;
 }
 
+.underscore {
+  position: relative;
+  top: 28px;
+}
+
+.underscore::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 53px;
+  height: 4px;
+  background-color: var(--brand-blue);
+  border-radius: 2px;
+}
+
+.underscore-portfolio {
+  position: relative;
+  top: 28px;
+}
+
+.underscore-portfolio::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 58px;
+  height: 4px;
+  background-color: var(--brand-blue);
+  border-radius: 2px;
+}
+/* =============   ============*/
 .button-list-port {
   display: flex;
   flex-wrap: wrap;
